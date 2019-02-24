@@ -1,0 +1,22 @@
+{
+  "name": "thoughtworks-project",
+  "version": "1.0.0",
+  "description": "Merchant's Guide to the Galaxy",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc --target ES5 --experimentalDecorators && node dist/app.js",
+    "test": "mocha --require ts-node/register --recursive src/**/*.test.ts"
+  },
+  "author": "YI ZHIYUE",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.9.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}

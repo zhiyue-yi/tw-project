@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "pretty":true,
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": [
+      "node", "mocha", "chai"
+    ]
+  },
+  // "files": [
+  // ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.test.ts"
+  ]
+}
